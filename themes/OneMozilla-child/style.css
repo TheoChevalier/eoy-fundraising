@@ -211,9 +211,14 @@ section h3{
     width: 100%;
 }
 
+#first-row {
+   width: calc( 100% - 30px );
+}
+
 #second-row{
-    width: 617px;
-    width: calc( 66.66666% - 50px );
+    /*width: 617px;
+    width: calc( 66.66666% - 50px );*/
+    width: calc( 100% - 30px );
 }
 
 .white-bg{
@@ -221,12 +226,19 @@ section h3{
     padding: 25px 15px;
 }
 
+#country-breakdown-chart-section,
 #view-blog-section,
 #older-blog-post-section {
     width: 567px;
     width: calc( 100% - 50px );
     float: left;
     margin: 10px;
+}
+
+#country-breakdown-chart-section {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #older-blog-post-section .archive-link {
@@ -302,7 +314,7 @@ section h3{
     margin: 0 15px 10px 0;
     text-align: center;
     line-height: 100%;
-    
+
 }
 
 #blog-post-date #month{
@@ -678,12 +690,12 @@ section h3{
 
   #first-row .two-columns{
     width: 330px;
-    width: calc( 50% - 50px );  /* (margin:10px*2+padding:15px*2) */ 
+    width: calc( 50% - 50px );  /* (margin:10px*2+padding:15px*2) */
   }
 
   #second-row .two-columns{
-    width: 390px;  
-    width: calc( 100% - 50px );  /* (padding:15px*2) */ 
+    width: 390px;
+    width: calc( 100% - 50px );  /* (padding:15px*2) */
     height: 100%;
     margin: 10px;
   }
@@ -694,8 +706,8 @@ section h3{
 @media only screen and (max-width: 767px) {
 
   #poll-section{
-    width: 390px;  
-    width: calc( 100% - 30px );  /* (padding:15px*2) */ 
+    width: 390px;
+    width: calc( 100% - 30px );  /* (padding:15px*2) */
     position: relative;
     right: 0;
     float: left;
@@ -708,8 +720,8 @@ section h3{
 
   #first-row .two-columns,
   #second-row section{
-    width: 390px;  
-    width: calc( 100% - 30px );  /* (padding:15px*2) */ 
+    width: 390px;
+    width: calc( 100% - 30px );  /* (padding:15px*2) */
     height: 100%;
     margin: 10px 0;
   }
@@ -722,7 +734,7 @@ section h3{
   .wrap {
     padding: 0 22px;
     width: 436px;
-  }  
+  }
   #masthead{
       margin: 0;
   }
@@ -749,8 +761,8 @@ section h3{
 
 
   #poll-section{
-    width: 390px;  
-    width: calc( 100% - 30px );  /* (padding:15px*2) */ 
+    width: 390px;
+    width: calc( 100% - 30px );  /* (padding:15px*2) */
     position: relative;
     right: 0;
     float: left;
@@ -763,8 +775,8 @@ section h3{
 
   #first-row .two-columns,
   #second-row .two-columns{
-    width: 390px;  
-    width: calc( 100% - 30px );  /* (padding:15px*2) */ 
+    width: 390px;
+    width: calc( 100% - 30px );  /* (padding:15px*2) */
     height: 100%;
     margin: 10px 0;
   }

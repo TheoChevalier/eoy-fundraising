@@ -39,6 +39,9 @@
 </footer>
 
 <script src="https://www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
+<script>window.pathToTheme = "<?php bloginfo('stylesheet_directory'); ?>";</script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/charts.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/index.js"></script>
 
 <?php wp_footer(); ?>
 

@@ -9,30 +9,37 @@
     </div>
 
     <div id="dashboard-main" role="main">
-      <div class="row" id="first-row">
+      <!-- <div class="row" id="first-row">
         <section class="white-bg two-columns">
-        <h3>EOY Campaign Total: <span id="period-graph-title"></span></h3>
-        <div class="graph-box-container">
-          <div id="period-graph-container">
-            <div class="spacing-container" data-period-bar-container>
+          <h3>EOY Campaign Total: <span id="period-graph-title"></span></h3>
+          <div class="graph-box-container">
+            <div id="period-graph-container">
+              <div class="spacing-container" data-period-bar-container>
+                <div class="column">
+                  <div class="bar"><div class="above-title"></div><div class="below-title"></div></div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="white-bg two-columns">
+          <h3>Donations by Source</h3>
+          <div class="graph-box-container">
+            <div id="source-graph-container" data-source-bar-container>
               <div class="column">
                 <div class="bar"><div class="above-title"></div><div class="below-title"></div></div>
               </div>
             </div>
-          </div>
-      </div>
-      </section>
+        </div>
+        </section>
+      </div> -->
 
-      <section class="white-bg two-columns">
-        <h3>Donations by Source</h3>
-        <div class="graph-box-container">
-          <div id="source-graph-container" data-source-bar-container>
-            <div class="column">
-              <div class="bar"><div class="above-title"></div><div class="below-title"></div></div>
-            </div>
-          </div>
-      </div>
-      </section>
+      <div class="row" id="first-row">
+        <section id="country-breakdown-chart-section" class="white-bg">
+          <h2>Donation by Country 12/03/2013</h2><br />
+          <div class="chart"></div>
+        </section>
       </div>
 
       <div class="row" id="second-row">
@@ -44,10 +51,10 @@
           </div>
         </section>
 
-        <section id="poll-section" class="white-bg">
+        <!-- <section id="poll-section" class="white-bg">
           <h3>You Be the Fundraiser Poll</h3>
           <?php if ( dynamic_sidebar('polls-widget') ) : else : endif; ?>
-        </section>
+        </section> -->
 
         <section id="older-blog-post-section" class="white-bg">
           <h3>Older Blog Posts</h3>

@@ -1,0 +1,49 @@
+/*
+Theme Name: Bootstrap v3.1.1 Enabled WordPress Theme
+Theme URI:
+Description:
+Author: Mavis Ou
+Author URI: https://github.com/mmmavis
+Version: 1.0
+License:
+License URI:
+*/
+
+.placholder-img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  margin: 10px;
+}
+
+.placholder-img.round {
+  border-radius: 50%;
+}
+
+
+:not(nav) > .container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+.current-menu-item a {
+  color: #555;
+  background: #E7E7E7;
+}
+
+footer {
+  background: #ccc;
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer > .container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
